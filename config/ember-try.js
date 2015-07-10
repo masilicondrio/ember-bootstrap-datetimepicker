@@ -36,6 +36,12 @@ module.exports = {
       dependencies: {
         'ember': '1.13.3'
       }
+    },
+    {
+      name: 'ember-1.11',
+      dependencies: {
+        'ember': '1.11.3'
+      }
     }
   ]
 };

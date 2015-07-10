@@ -147,8 +147,10 @@ var bsDateTimePickerComponent = Ember.Component.extend({
   setUnknownProperty: function(key, value) {
     var prop;
     var ckey;
-
+    debugger;
+console.log(key)
     if (key.indexOf('textField') === 0) {
+      debugger;
       if (Ember.isNone(this.get('textFieldOptions'))) {
         this.set('textFieldOptions', {});
       }

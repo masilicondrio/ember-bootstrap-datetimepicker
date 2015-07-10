@@ -24,7 +24,7 @@ module.exports = function(defaults) {
   });
 
   if (app.env !== 'production') {
-    app.import('bower_components/ember/ember-template-compiler.js');
+    //app.import('bower_components/ember/ember-template-compiler.js');
   }
 
   return app.toTree();
