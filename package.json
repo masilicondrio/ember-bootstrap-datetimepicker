@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "ember-cli-babel": "^5.0.0",
-     "moment": "^2.10.3",
+     "moment": "2.10.3"
   },
   "keywords": [
     "ember-addon",
